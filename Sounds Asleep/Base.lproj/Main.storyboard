@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sounds_Asleep" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WbB-i7-h3f">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zj8-PH-NNt">
+                                <rect key="frame" x="150" y="459" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="6Ho-AD-qhm"/>
+                                    <constraint firstAttribute="width" constant="75" id="yLm-DD-iE7"/>
+                                </constraints>
+                                <state key="normal" image="WhitePlay.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pxQ-uS-WKu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xds-lx-DE8">
+                                <rect key="frame" x="148.5" y="108" width="78" height="22"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtB-kx-3wj">
+                                <rect key="frame" x="72" y="40" width="231" height="60"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLZ-8X-mwU">
+                                <rect key="frame" x="142.5" y="542" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="GVr-sV-XGk"/>
+                                    <constraint firstAttribute="height" constant="40" id="aUF-4a-vfc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <state key="normal" title="Set Timer">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="setTimerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X1I-Au-R23"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hV6-JW-HbX">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="pickerDoneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DjG-tS-Fhl"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" countDownDuration="1" minuteInterval="5" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yc-EJ-rm7">
+                                <rect key="frame" x="0.0" y="751" width="375" height="216"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <date key="date" timeIntervalSinceReferenceDate="516024000.02573103">
+                                    <!--2017-05-09 12:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gCc-Gn-ZzI">
+                                <rect key="frame" x="0.0" y="707" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" systemItem="done" id="xpN-9h-7gN">
+                                        <connections>
+                                            <action selector="pickerDoneButton:" destination="BYZ-38-t0r" id="ZGL-RX-hSU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BtB-kx-3wj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="647-H7-1hm"/>
+                            <constraint firstItem="hV6-JW-HbX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7kk-Ym-REe"/>
+                            <constraint firstItem="xds-lx-DE8" firstAttribute="top" secondItem="BtB-kx-3wj" secondAttribute="bottom" constant="8" id="8NR-rA-coG"/>
+                            <constraint firstItem="WbB-i7-h3f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BKr-CR-rd7"/>
+                            <constraint firstItem="WbB-i7-h3f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dr2-HK-EU0"/>
+                            <constraint firstItem="gCc-Gn-ZzI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ECf-Yj-Jd3"/>
+                            <constraint firstItem="BtB-kx-3wj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="GMF-vx-uzr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hV6-JW-HbX" secondAttribute="bottom" id="NZN-nW-qlI"/>
+                            <constraint firstAttribute="trailing" secondItem="8Yc-EJ-rm7" secondAttribute="trailing" id="NnK-uK-9Ww"/>
+                            <constraint firstItem="BLZ-8X-mwU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O0M-wj-Jgt"/>
+                            <constraint firstItem="Zj8-PH-NNt" firstAttribute="top" secondItem="WbB-i7-h3f" secondAttribute="bottom" constant="-208" id="PL0-BC-4F7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WbB-i7-h3f" secondAttribute="bottom" id="Qb0-sS-tMz"/>
+                            <constraint firstItem="xds-lx-DE8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rq3-19-qHn"/>
+                            <constraint firstItem="Zj8-PH-NNt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SaF-Dd-URH"/>
+                            <constraint firstAttribute="trailing" secondItem="gCc-Gn-ZzI" secondAttribute="trailing" id="WAy-3f-rgf"/>
+                            <constraint firstItem="8Yc-EJ-rm7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ymr-Pn-Qpr"/>
+                            <constraint firstItem="BLZ-8X-mwU" firstAttribute="top" secondItem="Zj8-PH-NNt" secondAttribute="bottom" constant="8" id="Zfp-NI-blG"/>
+                            <constraint firstAttribute="trailing" secondItem="WbB-i7-h3f" secondAttribute="trailing" id="Zkv-rZ-QBh"/>
+                            <constraint firstItem="8Yc-EJ-rm7" firstAttribute="top" secondItem="gCc-Gn-ZzI" secondAttribute="bottom" id="a5D-Qr-u2s"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Yc-EJ-rm7" secondAttribute="bottom" constant="-300" id="doz-qO-8mv"/>
+                            <constraint firstItem="hV6-JW-HbX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vKI-vG-BCl"/>
+                            <constraint firstAttribute="trailing" secondItem="hV6-JW-HbX" secondAttribute="trailing" id="xKK-rY-vrf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundButton" destination="hV6-JW-HbX" id="hYh-d9-xa4"/>
+                        <outlet property="cdTimerConstraint" destination="doz-qO-8mv" id="cS6-OY-pgf"/>
+                        <outlet property="countDownTimerLabel" destination="xds-lx-DE8" id="hD5-WH-WGQ"/>
+                        <outlet property="countDownTimerPicker" destination="8Yc-EJ-rm7" id="o9E-ed-wme"/>
+                        <outlet property="playButton" destination="Zj8-PH-NNt" id="wgX-Dj-Grb"/>
+                        <outlet property="setTimerButton" destination="BLZ-8X-mwU" id="ZMX-IF-j3p"/>
+                        <outlet property="timeLabel" destination="BtB-kx-3wj" id="SgZ-CB-gRz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WhitePlay.png" width="160" height="160"/>
+        <image name="app background.jpg" width="4000" height="5333"/>
+    </resources>
+</document>

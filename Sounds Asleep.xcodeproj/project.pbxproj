@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D344FAB61EC2CB4100B97B86 /* app2.png in Resources */ = {isa = PBXBuildFile; fileRef = D344FAB51EC2CB4100B97B86 /* app2.png */; };
+		D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3715B001F1E8CD8006DB2D0 /* app background.jpg */; };
+		D3715B031F1E906F006DB2D0 /* fanicon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3715B021F1E906F006DB2D0 /* fanicon2x.png */; };
+		D3715B051F1E9074006DB2D0 /* fanicon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3715B041F1E9074006DB2D0 /* fanicon3x.png */; };
+		D3F33A891EC158C90020B462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F33A881EC158C90020B462 /* AppDelegate.swift */; };
+		D3F33A8B1EC158C90020B462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F33A8A1EC158C90020B462 /* ViewController.swift */; };
+		D3F33A8E1EC158C90020B462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F33A8C1EC158C90020B462 /* Main.storyboard */; };
+		D3F33A901EC158C90020B462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F33A8F1EC158C90020B462 /* Assets.xcassets */; };
+		D3F33A931EC158C90020B462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F33A911EC158C90020B462 /* LaunchScreen.storyboard */; };
+		D3F33AA31EC1667D0020B462 /* WhitePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F33AA21EC1667D0020B462 /* WhitePlay.png */; };
+		D3F33AA51EC166860020B462 /* PauseWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F33AA41EC166860020B462 /* PauseWhite.png */; };
+		D3F33AA81EC16B640020B462 /* FanNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3F33AA71EC16A930020B462 /* FanNoise.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D344FAB51EC2CB4100B97B86 /* app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app2.png; sourceTree = "<group>"; };
+		D3715B001F1E8CD8006DB2D0 /* app background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app background.jpg"; sourceTree = "<group>"; };
+		D3715B021F1E906F006DB2D0 /* fanicon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanicon2x.png; sourceTree = "<group>"; };
+		D3715B041F1E9074006DB2D0 /* fanicon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanicon3x.png; sourceTree = "<group>"; };
+		D3F33A851EC158C90020B462 /* Sounds Asleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sounds Asleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F33A881EC158C90020B462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3F33A8A1EC158C90020B462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3F33A8D1EC158C90020B462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F33A8F1EC158C90020B462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F33A921EC158C90020B462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F33A941EC158C90020B462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F33AA21EC1667D0020B462 /* WhitePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhitePlay.png; sourceTree = "<group>"; };
+		D3F33AA41EC166860020B462 /* PauseWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseWhite.png; sourceTree = "<group>"; };
+		D3F33AA71EC16A930020B462 /* FanNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FanNoise.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F33A821EC158C90020B462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F33A7C1EC158C90020B462 = {
+			isa = PBXGroup;
+			children = (
+				D3F33A871EC158C90020B462 /* Sounds Asleep */,
+				D3F33A861EC158C90020B462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F33A861EC158C90020B462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F33A851EC158C90020B462 /* Sounds Asleep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F33A871EC158C90020B462 /* Sounds Asleep */ = {
+			isa = PBXGroup;
+			children = (
+				D3F33A881EC158C90020B462 /* AppDelegate.swift */,
+				D3F33A8A1EC158C90020B462 /* ViewController.swift */,
+				D3F33AA61EC16A830020B462 /* Noises */,
+				D3F33A8C1EC158C90020B462 /* Main.storyboard */,
+				D3F33A8F1EC158C90020B462 /* Assets.xcassets */,
+				D344FAB51EC2CB4100B97B86 /* app2.png */,
+				D3715B021F1E906F006DB2D0 /* fanicon2x.png */,
+				D3715B041F1E9074006DB2D0 /* fanicon3x.png */,
+				D3F33AA21EC1667D0020B462 /* WhitePlay.png */,
+				D3715B001F1E8CD8006DB2D0 /* app background.jpg */,
+				D3F33AA41EC166860020B462 /* PauseWhite.png */,
+				D3F33A911EC158C90020B462 /* LaunchScreen.storyboard */,
+				D3F33A941EC158C90020B462 /* Info.plist */,
+			);
+			path = "Sounds Asleep";
+			sourceTree = "<group>";
+		};
+		D3F33AA61EC16A830020B462 /* Noises */ = {
+			isa = PBXGroup;
+			children = (
+				D3F33AA71EC16A930020B462 /* FanNoise.m4a */,
+			);
+			name = Noises;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F33A841EC158C90020B462 /* Sounds Asleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F33A971EC158C90020B462 /* Build configuration list for PBXNativeTarget "Sounds Asleep" */;
+			buildPhases = (
+				D3F33A811EC158C90020B462 /* Sources */,
+				D3F33A821EC158C90020B462 /* Frameworks */,
+				D3F33A831EC158C90020B462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sounds Asleep";
+			productName = "Sounds Asleep";
+			productReference = D3F33A851EC158C90020B462 /* Sounds Asleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F33A7D1EC158C90020B462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brian Lowen";
+				TargetAttributes = {
+					D3F33A841EC158C90020B462 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = STA43KQ62L;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D3F33A801EC158C90020B462 /* Build configuration list for PBXProject "Sounds Asleep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F33A7C1EC158C90020B462;
+			productRefGroup = D3F33A861EC158C90020B462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F33A841EC158C90020B462 /* Sounds Asleep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F33A831EC158C90020B462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */,
+				D3715B051F1E9074006DB2D0 /* fanicon3x.png in Resources */,
+				D3F33AA81EC16B640020B462 /* FanNoise.m4a in Resources */,
+				D3F33A931EC158C90020B462 /* LaunchScreen.storyboard in Resources */,
+				D3F33A901EC158C90020B462 /* Assets.xcassets in Resources */,
+				D3F33AA51EC166860020B462 /* PauseWhite.png in Resources */,
+				D3F33A8E1EC158C90020B462 /* Main.storyboard in Resources */,
+				D3715B031F1E906F006DB2D0 /* fanicon2x.png in Resources */,
+				D344FAB61EC2CB4100B97B86 /* app2.png in Resources */,
+				D3F33AA31EC1667D0020B462 /* WhitePlay.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F33A811EC158C90020B462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F33A8B1EC158C90020B462 /* ViewController.swift in Sources */,
+				D3F33A891EC158C90020B462 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3F33A8C1EC158C90020B462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F33A8D1EC158C90020B462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F33A911EC158C90020B462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F33A921EC158C90020B462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F33A951EC158C90020B462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3F33A961EC158C90020B462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F33A981EC158C90020B462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STA43KQ62L;
+				INFOPLIST_FILE = "Sounds Asleep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianLowen.Sounds-Asleep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D3F33A991EC158C90020B462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STA43KQ62L;
+				INFOPLIST_FILE = "Sounds Asleep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianLowen.Sounds-Asleep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F33A801EC158C90020B462 /* Build configuration list for PBXProject "Sounds Asleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F33A951EC158C90020B462 /* Debug */,
+				D3F33A961EC158C90020B462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F33A971EC158C90020B462 /* Build configuration list for PBXNativeTarget "Sounds Asleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F33A981EC158C90020B462 /* Debug */,
+				D3F33A991EC158C90020B462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F33A7D1EC158C90020B462 /* Project object */;
+}
