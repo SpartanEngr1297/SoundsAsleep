@@ -11,6 +11,8 @@
 		D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3715B001F1E8CD8006DB2D0 /* app background.jpg */; };
 		D3715B031F1E906F006DB2D0 /* fanicon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3715B021F1E906F006DB2D0 /* fanicon2x.png */; };
 		D3715B051F1E9074006DB2D0 /* fanicon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3715B041F1E9074006DB2D0 /* fanicon3x.png */; };
+		D38EA4AF1F20343700D6EBA8 /* text-fan.png in Resources */ = {isa = PBXBuildFile; fileRef = D38EA4AD1F20343700D6EBA8 /* text-fan.png */; };
+		D3B1A69E1F21213D00DEF6E8 /* StarsBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */; };
 		D3F33A891EC158C90020B462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F33A881EC158C90020B462 /* AppDelegate.swift */; };
 		D3F33A8B1EC158C90020B462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F33A8A1EC158C90020B462 /* ViewController.swift */; };
 		D3F33A8E1EC158C90020B462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F33A8C1EC158C90020B462 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		D3715B001F1E8CD8006DB2D0 /* app background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app background.jpg"; sourceTree = "<group>"; };
 		D3715B021F1E906F006DB2D0 /* fanicon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanicon2x.png; sourceTree = "<group>"; };
 		D3715B041F1E9074006DB2D0 /* fanicon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanicon3x.png; sourceTree = "<group>"; };
+		D38EA4AD1F20343700D6EBA8 /* text-fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-fan.png"; sourceTree = "<group>"; };
+		D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarsBackground.jpg; sourceTree = "<group>"; };
 		D3F33A851EC158C90020B462 /* Sounds Asleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sounds Asleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F33A881EC158C90020B462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F33A8A1EC158C90020B462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +81,9 @@
 				D3715B021F1E906F006DB2D0 /* fanicon2x.png */,
 				D3715B041F1E9074006DB2D0 /* fanicon3x.png */,
 				D3F33AA21EC1667D0020B462 /* WhitePlay.png */,
+				D38EA4AD1F20343700D6EBA8 /* text-fan.png */,
 				D3715B001F1E8CD8006DB2D0 /* app background.jpg */,
+				D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */,
 				D3F33AA41EC166860020B462 /* PauseWhite.png */,
 				D3F33A911EC158C90020B462 /* LaunchScreen.storyboard */,
 				D3F33A941EC158C90020B462 /* Info.plist */,
@@ -159,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */,
+				D38EA4AF1F20343700D6EBA8 /* text-fan.png in Resources */,
 				D3715B051F1E9074006DB2D0 /* fanicon3x.png in Resources */,
 				D3F33AA81EC16B640020B462 /* FanNoise.m4a in Resources */,
 				D3F33A931EC158C90020B462 /* LaunchScreen.storyboard in Resources */,
@@ -168,6 +175,7 @@
 				D3715B031F1E906F006DB2D0 /* fanicon2x.png in Resources */,
 				D344FAB61EC2CB4100B97B86 /* app2.png in Resources */,
 				D3F33AA31EC1667D0020B462 /* WhitePlay.png in Resources */,
+				D3B1A69E1F21213D00DEF6E8 /* StarsBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

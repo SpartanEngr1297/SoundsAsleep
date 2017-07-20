@@ -131,6 +131,8 @@ class ViewController: UIViewController {
         
         cdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector (ViewController.decreaseTime), userInfo: nil, repeats: true)
         
+        playSound(self)
+        
     }
     func updateTime(){
         
