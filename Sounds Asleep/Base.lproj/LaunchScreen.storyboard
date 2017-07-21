@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,15 +19,29 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StarsBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hNr-a8-xJI">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarsBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hNr-a8-xJI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text-fan.png" translatesAutoresizingMaskIntoConstraints="NO" id="b68-EN-fAL">
+                                <rect key="frame" x="0.0" y="161" width="414" height="414.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="b68-EN-fAL" secondAttribute="height" multiplier="1:1" id="blj-HO-h2B"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hNr-a8-xJI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Rr7-Fz-WaB"/>
+                            <constraint firstItem="b68-EN-fAL" firstAttribute="width" secondItem="hNr-a8-xJI" secondAttribute="width" id="k4u-qr-zgv"/>
+                            <constraint firstItem="b68-EN-fAL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rV8-OJ-AXT"/>
+                            <constraint firstItem="hNr-a8-xJI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="uah-5i-mX8"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hNr-a8-xJI" secondAttribute="bottom" id="xoh-So-4om"/>
+                            <constraint firstItem="b68-EN-fAL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="z6q-bk-uLC"/>
+                            <constraint firstAttribute="trailing" secondItem="hNr-a8-xJI" secondAttribute="trailing" id="zew-ex-v5E"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -36,5 +51,6 @@
     </scenes>
     <resources>
         <image name="StarsBackground.jpg" width="8000" height="10667"/>
+        <image name="text-fan.png" width="513" height="391"/>
     </resources>
 </document>
