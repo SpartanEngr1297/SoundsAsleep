@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     let pauseImage = UIImage(named: "PauseWhite.png")
     let playImage = UIImage(named: "WhitePlay.png")
     var whiteNoise = AVAudioPlayer()
+    var turnOnNoise = AVAudioPlayer()
     var time = 0
     var cdTimer: Timer!
     
@@ -40,6 +41,30 @@ class ViewController: UIViewController {
             self.updateTime()
         }
         
+        // initial turn on noise
+        do {
+            // sets up audio player
+            turnOnNoise = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "TurnOnFan", ofType: "m4a")!))
+            turnOnNoise.prepareToPlay()
+            
+            // play indefinitely
+            //turnOnNoise.numberOfLoops = -1
+            
+            // sets up background play
+            let audioSession = AVAudioSession.sharedInstance()
+            do {
+                try audioSession.setCategory(AVAudioSessionCategoryPlayback)
+            }
+            catch {
+                print(error)
+            }
+        }
+        catch {
+            print(error)
+        }
+
+        
+        // fan noise
         do {
             // sets up audio player
             whiteNoise = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "FanNoise", ofType: "m4a")!))
@@ -81,10 +106,13 @@ class ViewController: UIViewController {
             
         } else {
             playButton.setImage(pauseImage, for: UIControlState.normal)
+            turnOnNoise.play()
             whiteNoise.play()
+            
         }
         
     }
+    
     @IBAction func setTimerButton(_ sender: Any) {
         
         if setTimerButton.title(for: .normal) == "Set Timer"{
@@ -120,7 +148,7 @@ class ViewController: UIViewController {
         }
         
         // put picker away
-        cdTimerConstraint.constant = -300
+        cdTimerConstraint.constant = -750
         
         UIView.animate(withDuration: 0.3) {
             self.view.layoutIfNeeded()
@@ -155,20 +183,11 @@ class ViewController: UIViewController {
     }
     
     func updateCountDownTimer(){
-        let seconds = String(time % 60)
-        let minutes = String((time / 60) % 60)
-        let hours = String(time / 3600)
-    
-        let timeStr = "\(hours):\(minutes):\(seconds)"
+        let seconds = Int(time % 60)
+        let minutes = Int((time / 60) % 60)
+        let hours = Int(time / 3600)
         
-        let timerFormatter = DateFormatter()
-        timerFormatter.dateFormat = "KK:mm:ss"
-        
-        let countDownTimer = timerFormatter.date(from: timeStr)
-        
-        let cdtimer = timerFormatter.string(from: countDownTimer!)
-        
-        countDownTimerLabel.text = cdtimer
+        countDownTimerLabel.text = String(format: "%02i:%02i:%02i",hours,minutes,seconds)
         
     }
     

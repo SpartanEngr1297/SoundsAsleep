@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		D344FAB61EC2CB4100B97B86 /* app2.png in Resources */ = {isa = PBXBuildFile; fileRef = D344FAB51EC2CB4100B97B86 /* app2.png */; };
 		D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3715B001F1E8CD8006DB2D0 /* app background.jpg */; };
-		D3715B031F1E906F006DB2D0 /* fanicon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3715B021F1E906F006DB2D0 /* fanicon2x.png */; };
-		D3715B051F1E9074006DB2D0 /* fanicon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3715B041F1E9074006DB2D0 /* fanicon3x.png */; };
 		D38EA4AF1F20343700D6EBA8 /* text-fan.png in Resources */ = {isa = PBXBuildFile; fileRef = D38EA4AD1F20343700D6EBA8 /* text-fan.png */; };
 		D3B1A69E1F21213D00DEF6E8 /* StarsBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */; };
+		D3EE42C01F2139340036AE92 /* TurnOnFan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3EE42BF1F2139340036AE92 /* TurnOnFan.m4a */; };
+		D3EE42C21F21393A0036AE92 /* FanNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3EE42C11F21393A0036AE92 /* FanNoise.m4a */; };
 		D3F33A891EC158C90020B462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F33A881EC158C90020B462 /* AppDelegate.swift */; };
 		D3F33A8B1EC158C90020B462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F33A8A1EC158C90020B462 /* ViewController.swift */; };
 		D3F33A8E1EC158C90020B462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F33A8C1EC158C90020B462 /* Main.storyboard */; };
@@ -20,16 +20,15 @@
 		D3F33A931EC158C90020B462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F33A911EC158C90020B462 /* LaunchScreen.storyboard */; };
 		D3F33AA31EC1667D0020B462 /* WhitePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F33AA21EC1667D0020B462 /* WhitePlay.png */; };
 		D3F33AA51EC166860020B462 /* PauseWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F33AA41EC166860020B462 /* PauseWhite.png */; };
-		D3F33AA81EC16B640020B462 /* FanNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3F33AA71EC16A930020B462 /* FanNoise.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D344FAB51EC2CB4100B97B86 /* app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app2.png; sourceTree = "<group>"; };
 		D3715B001F1E8CD8006DB2D0 /* app background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app background.jpg"; sourceTree = "<group>"; };
-		D3715B021F1E906F006DB2D0 /* fanicon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanicon2x.png; sourceTree = "<group>"; };
-		D3715B041F1E9074006DB2D0 /* fanicon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanicon3x.png; sourceTree = "<group>"; };
 		D38EA4AD1F20343700D6EBA8 /* text-fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-fan.png"; sourceTree = "<group>"; };
 		D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarsBackground.jpg; sourceTree = "<group>"; };
+		D3EE42BF1F2139340036AE92 /* TurnOnFan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TurnOnFan.m4a; sourceTree = "<group>"; };
+		D3EE42C11F21393A0036AE92 /* FanNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FanNoise.m4a; sourceTree = "<group>"; };
 		D3F33A851EC158C90020B462 /* Sounds Asleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sounds Asleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F33A881EC158C90020B462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F33A8A1EC158C90020B462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +38,6 @@
 		D3F33A941EC158C90020B462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3F33AA21EC1667D0020B462 /* WhitePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhitePlay.png; sourceTree = "<group>"; };
 		D3F33AA41EC166860020B462 /* PauseWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseWhite.png; sourceTree = "<group>"; };
-		D3F33AA71EC16A930020B462 /* FanNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FanNoise.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3EE42C31F213EEB0036AE92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D344FAB51EC2CB4100B97B86 /* app2.png */,
+				D3F33AA21EC1667D0020B462 /* WhitePlay.png */,
+				D38EA4AD1F20343700D6EBA8 /* text-fan.png */,
+				D3715B001F1E8CD8006DB2D0 /* app background.jpg */,
+				D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */,
+				D3F33AA41EC166860020B462 /* PauseWhite.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D3F33A7C1EC158C90020B462 = {
 			isa = PBXGroup;
 			children = (
@@ -74,17 +85,10 @@
 			children = (
 				D3F33A881EC158C90020B462 /* AppDelegate.swift */,
 				D3F33A8A1EC158C90020B462 /* ViewController.swift */,
+				D3EE42C31F213EEB0036AE92 /* Images */,
 				D3F33AA61EC16A830020B462 /* Noises */,
 				D3F33A8C1EC158C90020B462 /* Main.storyboard */,
 				D3F33A8F1EC158C90020B462 /* Assets.xcassets */,
-				D344FAB51EC2CB4100B97B86 /* app2.png */,
-				D3715B021F1E906F006DB2D0 /* fanicon2x.png */,
-				D3715B041F1E9074006DB2D0 /* fanicon3x.png */,
-				D3F33AA21EC1667D0020B462 /* WhitePlay.png */,
-				D38EA4AD1F20343700D6EBA8 /* text-fan.png */,
-				D3715B001F1E8CD8006DB2D0 /* app background.jpg */,
-				D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */,
-				D3F33AA41EC166860020B462 /* PauseWhite.png */,
 				D3F33A911EC158C90020B462 /* LaunchScreen.storyboard */,
 				D3F33A941EC158C90020B462 /* Info.plist */,
 			);
@@ -94,7 +98,8 @@
 		D3F33AA61EC16A830020B462 /* Noises */ = {
 			isa = PBXGroup;
 			children = (
-				D3F33AA71EC16A930020B462 /* FanNoise.m4a */,
+				D3EE42C11F21393A0036AE92 /* FanNoise.m4a */,
+				D3EE42BF1F2139340036AE92 /* TurnOnFan.m4a */,
 			);
 			name = Noises;
 			sourceTree = "<group>";
@@ -164,15 +169,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EE42C01F2139340036AE92 /* TurnOnFan.m4a in Resources */,
 				D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */,
+				D3EE42C21F21393A0036AE92 /* FanNoise.m4a in Resources */,
 				D38EA4AF1F20343700D6EBA8 /* text-fan.png in Resources */,
-				D3715B051F1E9074006DB2D0 /* fanicon3x.png in Resources */,
-				D3F33AA81EC16B640020B462 /* FanNoise.m4a in Resources */,
 				D3F33A931EC158C90020B462 /* LaunchScreen.storyboard in Resources */,
 				D3F33A901EC158C90020B462 /* Assets.xcassets in Resources */,
 				D3F33AA51EC166860020B462 /* PauseWhite.png in Resources */,
 				D3F33A8E1EC158C90020B462 /* Main.storyboard in Resources */,
-				D3715B031F1E906F006DB2D0 /* fanicon2x.png in Resources */,
 				D344FAB61EC2CB4100B97B86 /* app2.png in Resources */,
 				D3F33AA31EC1667D0020B462 /* WhitePlay.png in Resources */,
 				D3B1A69E1F21213D00DEF6E8 /* StarsBackground.jpg in Resources */,
@@ -310,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = STA43KQ62L;
 				INFOPLIST_FILE = "Sounds Asleep/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -323,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = STA43KQ62L;
 				INFOPLIST_FILE = "Sounds Asleep/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
