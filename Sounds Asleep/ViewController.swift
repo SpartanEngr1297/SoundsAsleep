@@ -40,15 +40,12 @@ class ViewController: UIViewController {
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
             self.updateTime()
         }
-        
+                
         // initial turn on noise
         do {
             // sets up audio player
             turnOnNoise = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "TurnOnFan", ofType: "m4a")!))
             turnOnNoise.prepareToPlay()
-            
-            // play indefinitely
-            //turnOnNoise.numberOfLoops = -1
             
             // sets up background play
             let audioSession = AVAudioSession.sharedInstance()
@@ -107,7 +104,11 @@ class ViewController: UIViewController {
         } else {
             playButton.setImage(pauseImage, for: UIControlState.normal)
             turnOnNoise.play()
-            whiteNoise.play()
+            
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.30, execute: {
+                self.whiteNoise.play()
+            })
+            //whiteNoise.play()
             
         }
         
@@ -159,7 +160,10 @@ class ViewController: UIViewController {
         
         cdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector (ViewController.decreaseTime), userInfo: nil, repeats: true)
         
-        playSound(self)
+        // only play if sound is not already playing
+        if !(whiteNoise.isPlaying) {
+            playSound(self)
+        }
         
     }
     func updateTime(){

@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text-fan.png" translatesAutoresizingMaskIntoConstraints="NO" id="b68-EN-fAL">
-                                <rect key="frame" x="0.0" y="161" width="414" height="414.33333333333337"/>
+                                <rect key="frame" x="0.0" y="161" width="414" height="414"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="b68-EN-fAL" secondAttribute="height" multiplier="1:1" id="blj-HO-h2B"/>
                                 </constraints>
