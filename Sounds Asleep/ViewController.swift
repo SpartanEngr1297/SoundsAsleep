@@ -131,10 +131,11 @@ class ViewController: UIViewController {
         }
         else {
             
-            countDownTimerLabel.text = "00:00:00"
-            cdTimer.invalidate()
-        
-            setTimerButton.setTitle("Set Timer", for: .normal)
+            if cdTimer != nil {
+                countDownTimerLabel.text = "00:00:00"
+                cdTimer.invalidate()
+                setTimerButton.setTitle("Set Timer", for: .normal)
+            }
 
         }
         
