@@ -110,8 +110,6 @@ class ViewController: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.30, execute: {
                 self.whiteNoise.play()
             })
-            //whiteNoise.play()
-            
         }
         
     }
@@ -194,7 +192,7 @@ class ViewController: UIViewController {
             time -= 1
         } else {
             cdTimer.invalidate()
-            whiteNoise.stop()
+            whiteNoise.pause()
             whiteNoise.currentTime = 0
             playButton.setImage(playImage, for: UIControlState.normal)
             setTimerButton.setTitle("Set Timer", for: .normal)
