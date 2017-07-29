@@ -31,7 +31,8 @@ class ViewController: UIViewController {
         countDownTimerPicker.backgroundColor = UIColor.white
         countDownTimerPicker.alpha = 0.8
         
-        setTimerButton.layer.borderWidth = 3
+        setTimerButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        //setTimerButton.layer.borderWidth = 5
         setTimerButton.layer.cornerRadius = 10
         setTimerButton.layer.borderColor = UIColor.darkGray.cgColor
         setTimerButton.backgroundColor = UIColor.darkGray
@@ -40,7 +41,7 @@ class ViewController: UIViewController {
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
             self.updateTime()
         }
-                
+        
         // initial turn on noise
         do {
             // sets up audio player
@@ -99,6 +100,7 @@ class ViewController: UIViewController {
             
             if whiteNoise.isPlaying {
                 whiteNoise.pause()
+                whiteNoise.currentTime = 0 // restart the sound byte
             }
             
         } else {
@@ -126,7 +128,6 @@ class ViewController: UIViewController {
                 self.backgroundButton.alpha = 0.6
             }
             
-            setTimerButton.setTitle("Clear Timer", for: .normal)
             
         }
         else {
@@ -166,9 +167,24 @@ class ViewController: UIViewController {
             playSound(self)
         }
         
-    }
-    func updateTime(){
+        setTimerButton.setTitle("Clear Timer", for: .normal)
         
+    }
+    
+    @IBAction func backgroundButtonTapped(_ sender: Any) {
+        
+        // put picker away
+        cdTimerConstraint.constant = -750
+        
+        UIView.animate(withDuration: 0.3) {
+            self.view.layoutIfNeeded()
+            self.backgroundButton.alpha = 0
+        }
+        
+    }
+    
+    func updateTime(){
+        // update the current time
         timeLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: DateFormatter.Style.none, timeStyle: DateFormatter.Style.short)
         
     }
@@ -179,6 +195,7 @@ class ViewController: UIViewController {
         } else {
             cdTimer.invalidate()
             whiteNoise.stop()
+            whiteNoise.currentTime = 0
             playButton.setImage(playImage, for: UIControlState.normal)
             setTimerButton.setTitle("Set Timer", for: .normal)
             
