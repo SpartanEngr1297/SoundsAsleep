@@ -27,7 +27,7 @@ class SleepingTipsViewController: UIViewController {
     var seconds = 60
     var titleCount = 0
     
-    var tipArray = [["Deep Breathing", "Spend 60 seconds taking deep breaths. Inhale through your nose, hold the breath for just a moment, and then exhale out your mouth. This will calm your mind, slow your heart rate, and release tension in your body.", "60"], ["Stretching", "Spend 120 seconds stretching. Stretching out your body you will relieve some of the tension in your muscles allowing you to have a more comfortable nights sleep.", "120"], ["Counting Down", "This one is simple but can be effective. Count backwards with the timer down to 0. Focus only on the counting, this can help clear your mind.", "100"]]
+    var tipArray = [["Deep Breathing", "Spend 60 seconds taking deep breaths. Inhale through your nose, hold the breath for just a moment, and then exhale out your mouth. This will calm your mind, slow your heart rate, and release tension in your body.", "60"], ["Stretching", "Spend 120 seconds stretching. Stretching will relieve some of the tension in your body allowing you to have a more comfortable nights sleep.", "120"], ["Counting Down", "This one is simple but can be effective. Count backwards with the timer down to 0. Focus only on the counting, this can help clear your mind.", "100"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
