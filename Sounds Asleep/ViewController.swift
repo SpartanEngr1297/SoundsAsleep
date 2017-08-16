@@ -32,11 +32,7 @@ class ViewController: UIViewController {
         countDownTimerPicker.alpha = 0.8
         
         setTimerButton.titleLabel?.adjustsFontSizeToFitWidth = true
-        //setTimerButton.layer.borderWidth = 5
-        setTimerButton.layer.cornerRadius = 10
-        setTimerButton.layer.borderColor = UIColor.darkGray.cgColor
-        setTimerButton.backgroundColor = UIColor.darkGray
-        setTimerButton.alpha = 0.7
+        setTimerButton.layer.cornerRadius = 5
         
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
             self.updateTime()
