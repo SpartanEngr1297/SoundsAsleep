@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D344FAB61EC2CB4100B97B86 /* app2.png in Resources */ = {isa = PBXBuildFile; fileRef = D344FAB51EC2CB4100B97B86 /* app2.png */; };
-		D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3715B001F1E8CD8006DB2D0 /* app background.jpg */; };
 		D38EA4AF1F20343700D6EBA8 /* text-fan.png in Resources */ = {isa = PBXBuildFile; fileRef = D38EA4AD1F20343700D6EBA8 /* text-fan.png */; };
 		D3ADC3E71F42291D00AC0EB5 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ADC3E61F42291D00AC0EB5 /* KDCircularProgress.swift */; };
 		D3ADC3E91F42294200AC0EB5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D3ADC3E81F42294200AC0EB5 /* LICENSE */; };
 		D3ADC3EB1F4265BC00AC0EB5 /* DingNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3ADC3EA1F4265BC00AC0EB5 /* DingNoise.mp3 */; };
-		D3B1A69E1F21213D00DEF6E8 /* StarsBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */; };
 		D3C09B1D1F33A5A100021540 /* SleepingTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C09B1C1F33A5A100021540 /* SleepingTipsViewController.swift */; };
 		D3EE42C01F2139340036AE92 /* TurnOnFan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3EE42BF1F2139340036AE92 /* TurnOnFan.m4a */; };
 		D3EE42C21F21393A0036AE92 /* FanNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3EE42C11F21393A0036AE92 /* FanNoise.m4a */; };
@@ -27,13 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D344FAB51EC2CB4100B97B86 /* app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app2.png; sourceTree = "<group>"; };
-		D3715B001F1E8CD8006DB2D0 /* app background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app background.jpg"; sourceTree = "<group>"; };
 		D38EA4AD1F20343700D6EBA8 /* text-fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-fan.png"; sourceTree = "<group>"; };
 		D3ADC3E61F42291D00AC0EB5 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		D3ADC3E81F42294200AC0EB5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D3ADC3EA1F4265BC00AC0EB5 /* DingNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DingNoise.mp3; sourceTree = "<group>"; };
-		D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarsBackground.jpg; sourceTree = "<group>"; };
 		D3C09B1C1F33A5A100021540 /* SleepingTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepingTipsViewController.swift; sourceTree = "<group>"; };
 		D3EE42BF1F2139340036AE92 /* TurnOnFan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TurnOnFan.m4a; sourceTree = "<group>"; };
 		D3EE42C11F21393A0036AE92 /* FanNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FanNoise.m4a; sourceTree = "<group>"; };
@@ -71,11 +65,8 @@
 		D3EE42C31F213EEB0036AE92 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D344FAB51EC2CB4100B97B86 /* app2.png */,
 				D3F33AA21EC1667D0020B462 /* WhitePlay.png */,
 				D38EA4AD1F20343700D6EBA8 /* text-fan.png */,
-				D3715B001F1E8CD8006DB2D0 /* app background.jpg */,
-				D3B1A69D1F21213D00DEF6E8 /* StarsBackground.jpg */,
 				D3F33AA41EC166860020B462 /* PauseWhite.png */,
 			);
 			name = Images;
@@ -190,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EE42C01F2139340036AE92 /* TurnOnFan.m4a in Resources */,
-				D3715B011F1E8CD8006DB2D0 /* app background.jpg in Resources */,
 				D3EE42C21F21393A0036AE92 /* FanNoise.m4a in Resources */,
 				D38EA4AF1F20343700D6EBA8 /* text-fan.png in Resources */,
 				D3F33A931EC158C90020B462 /* LaunchScreen.storyboard in Resources */,
@@ -199,9 +189,7 @@
 				D3ADC3E91F42294200AC0EB5 /* LICENSE in Resources */,
 				D3F33AA51EC166860020B462 /* PauseWhite.png in Resources */,
 				D3F33A8E1EC158C90020B462 /* Main.storyboard in Resources */,
-				D344FAB61EC2CB4100B97B86 /* app2.png in Resources */,
 				D3F33AA31EC1667D0020B462 /* WhitePlay.png in Resources */,
-				D3B1A69E1F21213D00DEF6E8 /* StarsBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
