@@ -125,7 +125,7 @@ class ViewController: UIViewController {
             
         }
         else {
-            
+            // reset timer
             if cdTimer != nil {
                 countDownTimerLabel.text = "00:00:00"
                 cdTimer.invalidate()

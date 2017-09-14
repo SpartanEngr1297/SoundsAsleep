@@ -218,6 +218,7 @@ class SleepingTipsViewController: UIViewController {
     }
 }
 
+// set up storyboard extensions
 extension UIView {
     
     @IBInspectable var cornerRadius: CGFloat {
